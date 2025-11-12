@@ -1,22 +1,81 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-input, button {
-    padding: 5px;
-    margin: 2px;
-  }
+button{
+  padding: 6px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  border-color: rgba(166, 123, 91, 1);
+  cursor: pointer;
+}
+
+input [type='text']{
+  width: 250px;
+  padding: 6px 10px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  border-radius: 4px;
+}
+
+input{
+  width: 40%;
+}
   
-  li {
-    margin: 5px 0;
-  }
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-radius: 4px;
+}
   
-  .done {
-    text-decoration: line-through;
-    color: gray;
-  }
+.done{
+  text-decoration: line-through;
+  color: rgba(150, 150, 150, 1);
+}
   
-  button {
-    cursor: pointer;
-  }
+button{
+  cursor: pointer;
+  background: rgba(166, 123, 91, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+body{
+  color: rgba(51, 51, 51, 1);
+  padding: 20px;
+  background-image: url(img/coffee-background.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section{
+  margin-bottom: 15px;
+}
+
+ul{
+  list-style: none;
+  max-width: 350px;
+  padding-left: 0;
+}
+
+h1{
+  color: rgba(166, 123, 91, 1);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.delete-btn{
+  padding: 3px 6px;
+  font-size: 0.8rem;
+  background: rgba(166, 123, 91, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
